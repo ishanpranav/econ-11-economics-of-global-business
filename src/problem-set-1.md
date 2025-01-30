@@ -8,6 +8,12 @@ Professor Pricila Maziero
 
 ECON 11 Economics of Global Business
 
+## Definitions
+
+Let $X$ be a continuous variable. Then $\gamma_X$ denotes its growth rate for a
+given period with $\gamma_X=\ln(X_1)-\ln(X_0)$, where $X_1$ and $X_0$ denote the
+values of $X$.
+
 ## Question 1
 
 > Suppose an economy produces aluminum, microchips and computers. The aluminum
@@ -72,7 +78,7 @@ quantity) of product $x$ in the base year.
 > Compute nominal gross domestic product (GDP) in the current year and in the
 > base year. What is the percentage increase since the base year?
 
-Let $Y$ (respectively, $Y_0$) denote nominal GDP in the current year
+Let $Y'$ (respectively, $Y_0$) denote nominal GDP in the current year
 (respectively, base year).
 
 __Current year.__
@@ -80,7 +86,7 @@ __Current year.__
 By definition, nominal GDP is a measure of _output_, and is given by the
 sum-product of prices and quantities.
 
-$$\begin{align*}Y
+$$\begin{align*}Y'
 &=\sum_{x\in\{\rm{A},\rm{B}\}}{(p_x\cdot q_x)}\\
 &=\left(\frac{\$2.50}{\rm bag}\times 12~\text{bags}\right)+\left(\frac{\$1.50}{\rm bag}\times 22~\text{bags}\right)\\
 &=\$63.00.\end{align*}$$
@@ -98,9 +104,9 @@ The nominal GDP in the base year was $38.
 
 __Percentage increase.__
 
-$$\frac{Y}{Y_0}-1\approx 65.7895\dots\%.$$
+$$\frac{Y'}{Y_0}-1\approx 65.7895\dots\%.$$
 
-$$\gamma=\ln(Y)-\ln(Y_0)\approx 50.5549\dots\%.$$
+$$\gamma_{Y'}=\ln(Y')-\ln(Y_0)\approx 50.5549\dots\%.$$
 
 The increase since the base year is approximately 66 percent, or 51 percent
 in a continuous model.
@@ -111,14 +117,14 @@ in a continuous model.
 > year. By what percentage does real GDP increase from the base year to the
 > current year?
 
-Let $Y'$ denote real GDP in the current year.
+Let $Y$ denote real GDP in the current year.
 
 __Current year.__
 
 By definition, real GDP controls for variations in price by fixing prices to
 that of the base year.
 
-$$\begin{align*}Y'
+$$\begin{align*}Y
 &=\sum_{x\in\{\rm{A},\rm{B}\}}{({p_x}_0\cdot q_x)}\\
 &=\left(\frac{\$2.00}{\rm bag}\times 12~\text{bags}\right)+\left(\frac{\$1.00}{\rm bag}\times 22~\text{bags}\right)\\
 &=\$46.00.\end{align*}$$
@@ -135,9 +141,9 @@ So the real GDP in the base year is $38.
 
 __Percentage increase.__
 
-$$\frac{Y'}{Y_0}-1\approx 21.0526\dots\%.$$
+$$\frac{Y}{Y_0}-1\approx 21.0526\dots\%.$$
 
-$$\gamma=\ln(Y')-\ln(Y_0)\approx 19.1055\dots\%.$$
+$$\gamma_Y=\ln(Y)-\ln(Y_0)\approx 19.1055\dots\%.$$
 
 The increase since the base year is approximately 21 percent, or 19 percent
 in a continuous model.
@@ -179,18 +185,37 @@ __Inflation rate.__
 
 $$\frac{P}{P_0}-1\approx 36.8421\dots\%.$$
 
-$$\gamma=\ln(P)-\ln(P_0)\approx 31.3658\dots\%.$$
+$$\gamma_P=\ln(P)-\ln(P_0)\approx 31.3658\dots\%.$$
 
 The inflation rate since the base year is approximately 37 percent, or 31
 percent in a continuous model.
 
 ## Question 3
 
+The following notes apply to all data in Question 3 and Question 4.
+
+* For each date range, the lower bound is inclusive and the upper bound is
+  exclusive. For example, "1990–2000" denotes the period of 10 consecutive
+  calendar years including 1990 and 1999 but excluding 2000.
+* Growth rates are continuous and annualized.
+* Although the time series begins in 1990, data from 1989 are used to compute
+  the growth rate for 1990.
+* The number of significant figures is determined by the data.
+* The compounding frequency is annual with end-of-period aggregation.
+
 ### Question 3 Part A
+
+We will use the CPI: All urban consumers ([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) from the U.S. Bureau of Labor Statistics and the GDP deflator ([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) from the U.S. Bureau of Economic Analysis, both available from FRED, the Federal Reserve Bank of St. Louis.
+
+### Question 3 Part B
 
 __Annual growth rates of CPI and GDP deflator indices.__
 
 | Variable | 1990–2000 | 2000–2010 | 2010–2020 | 2010–2025 | 2025 |
-|----------|-----------|-----------|-----------|-----------|------|
-| Growth rate of CPI: All urban consumers | 2.9005% | 2.5278% | 1.7390% | 4.1132% | - |
-| Growth rate of GDP deflator | 2.1359% | 2.1515% | 1.6317% | 3.7736% | - |
+|----------|----------:|----------:|----------:|----------:|------|
+| Growth rate of CPI: all urban consumers ([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) | 2.901% | 2.528% | 1.739% | 4.113% | – |
+| Growth rate of GDP deflator ([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) | 2.1359% | 2.1515% | 1.6317% | 3.7736% | – |
+
+![Annual growth rates of CPI and GDP deflator indices](../images/problem-set-1-3.png "Annual growth rates of CPI and GDP deflator indices")
+
+### Question 3 Part C
