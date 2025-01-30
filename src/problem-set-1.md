@@ -100,10 +100,10 @@ __Percentage increase.__
 
 $$\frac{Y}{Y_0}-1\approx 65.7895\dots\%.$$
 
-$$\ln(Y)-\ln(Y_0)=50.5549\dots\%.$$
+$$\gamma=\ln(Y)-\ln(Y_0)\approx 50.5549\dots\%.$$
 
 The increase since the base year is approximately 66 percent, or 51 percent
-using a continuous approach.
+in a continuous model.
 
 ### Question 2 Part B
 
@@ -115,7 +115,8 @@ Let $Y'$ denote real GDP in the current year.
 
 __Current year.__
 
-By definition, real GDP controls for variations in price.
+By definition, real GDP controls for variations in price by fixing prices to
+that of the base year.
 
 $$\begin{align*}Y'
 &=\sum_{x\in\{\rm{A},\rm{B}\}}{({p_x}_0\cdot q_x)}\\
@@ -136,7 +137,49 @@ __Percentage increase.__
 
 $$\frac{Y'}{Y_0}-1\approx 21.0526\dots\%.$$
 
-$$\ln(Y')-\ln(Y_0)=19.1055\dots\%.$$
+$$\gamma=\ln(Y')-\ln(Y_0)\approx 19.1055\dots\%.$$
 
 The increase since the base year is approximately 21 percent, or 19 percent
-using a continuous approach.
+in a continuous model.
+
+### Question 2 Part C
+
+> Calculate the consumer price index (CPI) in both years and the inflation rate
+> using the CPI.
+
+__Axiom.__
+
+> Assume that the expenditure base to compute the CPI is base-year quantities
+> (${q_{\rm A}}_0$ and ${q_{\rm B}}_0$).
+
+Let $P$ denote the CPI in the current year.
+
+__Current year.__
+
+By definition, the CPI controls for variations in quantity by fixing quantities
+to the expenditure base (base-year quantities per our axiom).
+
+$$\begin{align*}P
+&=\sum_{x\in\{\rm{A},\rm{B}\}}{(p_x\cdot{q_x}_0)}\\
+&=\left(\frac{\$2.50}{\rm bag}\times 10~\text{bags}\right)+\left(\frac{\$1.50}{\rm bag}\times 18~\text{bags}\right)\\
+&=\$52.00.\end{align*}$$
+
+The CPI in the current year is $52.
+
+__Base year.__
+
+Intuitively, $P_0=Y_0$ also represents the CPI in the base year. Per our axiom,
+quantity produced and quantity expended are equal. In the base year, nominal GDP
+and CPI are both equal to the sum-product of base-year prices and base-year
+quantities.
+
+So the CPI in the base year is $38.
+
+__Inflation rate.__
+
+$$\frac{P}{P_0}-1\approx 36.8421\dots\%.$$
+
+$$\gamma=\ln(P)-\ln(P_0)\approx 31.3658\dots\%.$$
+
+The inflation rate since the base year is approximately 37 percent, or 31
+percent in a continuous model.
