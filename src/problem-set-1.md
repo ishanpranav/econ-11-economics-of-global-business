@@ -188,11 +188,9 @@ percent in a continuous model.
 
 ### Question 3 Part A
 
-__Annual growth rates of CPI and GDP deflator indices.__[^1]
+__Annual growth rates of CPI and GDP deflator indices.__
 
 | Variable | 1990–2000 | 2000–2010 | 2010–2020 | 2010–2025 | 2025 |
 |----------|-----------|-----------|-----------|-----------|------|
 | Growth rate of CPI: All urban consumers | 2.9005% | 2.5278% | 1.7390% | 4.1132% | - |
 | Growth rate of GDP deflator | 2.1359% | 2.1515% | 1.6317% | 3.7736% | - |
-
-[^1]: This is the footnote definition.
