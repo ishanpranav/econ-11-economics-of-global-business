@@ -1,2 +1,4 @@
-# econ-11-economics-of-global-business
-A collection of problem set solutions for NYU ECON 11 Economics of Global Business
+# Economics of Global Business
+
+This is a collection of problem set solutions for the NYU ECON 11 Economics of
+Global Business course.
