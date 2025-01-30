@@ -134,9 +134,9 @@ So the real GDP in the base year is $38.
 
 __Percentage increase.__
 
-$$\frac{Y'}{Y}-1\approx 21.0526\dots\%.$$
+$$\frac{Y'}{Y_0}-1\approx 21.0526\dots\%.$$
 
-$$\ln(Y)-\ln(Y_0)=19.1055\dots\%.$$
+$$\ln(Y')-\ln(Y_0)=19.1055\dots\%.$$
 
 The increase since the base year is approximately 21 percent, or 19 percent
 using a continuous approach.
