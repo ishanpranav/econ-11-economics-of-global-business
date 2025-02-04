@@ -284,15 +284,21 @@ __Annual growth rates of gross domestic product (GDP) and compensation of employ
 
 __Interpretation.__
 
-> Are these data consistent with the idea from Lecture # 5 that the marginal
-> product of labor should grow at a similar rate as output per worker? If at
-> all, why or why not?
-
-**?**
-
 With the exception of the pandemic era (2020–2024, the most recent decade), the
 growth rates of GDP and compensation of employees appear to be extremely
 similar.
+
+The marginal product of labor reflects labor demand, and its growth rate is thus
+linked to the growth rate of compensation. Output per worker tends to grow at a
+similar rate, although the correlation has weakened in recent decades. The
+strong, but weakening, relationship between growth rates of GDP and compensation
+of employess _is_ likely driven by the same factors which drive the strong, but
+weakening, relationship between marginal product of labor and output per worker.
+
+One explanation is that the economy is substituting some types of labor for
+capital via automation. If this is true, the simpler Cobb–Douglas production
+function is likely insufficient in capturing this effect, and a more robust
+model is required.
 
 ### Question 4 Part B
 
@@ -319,7 +325,7 @@ __Interpretation.__
 * Labor's share of income has experienced a falling trend since 1970, suggesting
   that the share of income attributed to other factors of production (that is,
   capital) has increased since 1970. However, capital's share of income remains
-  the minority (labor's share has been the majority since 1970).
+  the minority as labor's share has been the majority since 1970.
 * It may not be appropriate to attribute 100% of proprietor's income as a
   payment to labor, since proprietors are entitled to a share of the company's
   profits. Relative to that of other employees, a proprietor's  income is likely
