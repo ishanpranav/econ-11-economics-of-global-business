@@ -298,7 +298,8 @@ weakening, relationship between marginal product of labor and output per worker.
 One explanation is that the economy is substituting some types of labor for
 capital via automation. If this is true, the simpler Cobb–Douglas production
 function is likely insufficient in capturing this effect, and a more robust
-model is required.
+model is required. Where Cobb–Douglas assumes constant shares of income to labor
+and capital, Part B suggests that this assumption may not hold in practice.
 
 ### Question 4 Part B
 
