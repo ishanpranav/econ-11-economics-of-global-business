@@ -155,8 +155,8 @@ in a continuous model.
 
 __Axiom.__
 
-> Assume that the expenditure base to compute the CPI is base-year quantities
-> (${q_{\rm A}}_0$ and ${q_{\rm B}}_0$).
+Assume that the expenditure base to compute the CPI is base-year quantities
+(${q_{\rm A}}_0$ and ${q_{\rm B}}_0$).
 
 Let $P$ denote the CPI in the current year.
 
@@ -205,17 +205,132 @@ The following notes apply to all data in Question 3 and Question 4.
 
 ### Question 3 Part A
 
-We will use the CPI: All urban consumers ([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) from the U.S. Bureau of Labor Statistics and the GDP deflator ([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) from the U.S. Bureau of Economic Analysis, both available from FRED, the Federal Reserve Bank of St. Louis.
+We will use the consumer price index (CPI): all urban consumers
+([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) from the U.S. Bureau
+of Labor Statistics and the gross domestic product (GDP) deflator
+([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) from the U.S. Bureau of
+Economic Analysis, both available from FRED, the Federal Reserve Bank of St.
+Louis.
 
 ### Question 3 Part B
 
-__Annual growth rates of CPI and GDP deflator indices.__
+__Annual growth rates of consumer price index (CPI) and gross domestic product (GDP) deflator indices.__
 
-| Variable | 1990–2000 | 2000–2010 | 2010–2020 | 2010–2025 | 2025 |
-|----------|----------:|----------:|----------:|----------:|------|
-| Growth rate of CPI: all urban consumers ([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) | 2.901% | 2.528% | 1.739% | 4.113% | – |
-| Growth rate of GDP deflator ([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) | 2.1359% | 2.1515% | 1.6317% | 3.7736% | – |
+| Variable | 1990–2000 | 2000–2010 | 2010–2020 | 2010–2025 | 2025 | 1990–2025 |
+|----------|----------:|----------:|----------:|----------:|------|----------:|
+| Growth rate of CPI: all urban consumers ([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) | 2.901% | 2.528% | 1.739% | 4.113% | – | __2.635%__ |
+| Growth rate of GDP deflator ([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) | 2.1359% | 2.1515% | 1.6317% | 3.7736% | – | __2.2302%__ |
 
 ![Annual growth rates of CPI and GDP deflator indices](../images/problem-set-1-3.png "Annual growth rates of CPI and GDP deflator indices")
 
 ### Question 3 Part C
+
+> Discuss how inflation has evolved in the U.S. in the last decades. In
+> particular, what happened to inflation during the 1990s? What about the
+> financial crisis in 2007–2009? What was the impact of the pandemic on
+> inflation?
+
+During the 1990s, inflation fell steeply from its 1989 level and continued
+falling throughout the decade.
+
+During the financial crisis of 2007–2009, inflation fell steeply from its 2006
+level and the economy briefly fell into disinflation, with an inflation rate
+slightly below zero.
+
+During the pandemic, inflation rose steeply from its 2020 level and, in 2021 and
+2022, the economy experienced the highest level of inflation since 1990. This
+was likely due to enhanced government borrowing and economic stimulus. By 2024,
+inflation had fallen, returning to normal levels.
+
+### Question 3 Part D
+
+> Suppose you graduated from New York University in 1989 and your nominal wage
+> would increase by the inflation computed by one of these price indexes. Which
+> price index would you choose? Explain.
+
+Based on these data, I would choose the CPI, since it consistently overestimates
+inflation for the years in our sample. In terms of inflation, it appears that
+costs of living, as proxied by the CPI, rise faster than domestic output (GDP).
+
+### Question 3 Part E
+
+> Discuss one of the differences between the gross domestic product (GDP) price
+> deflator and the consumer price index (CPI).
+
+The GDP deflator is based on a measure of production, which includes a broad
+range of products and services. Meanwhile, the CPI restricts its scope to
+products and services that are consumed. Whereas GDP uses actual quantities
+produced and reflects a changing product mix, CPI uses an expenditure base and
+represents a fixed "basket" of goods.
+
+## Question 4
+
+### Question 4 Part A
+
+We will use the gross domestic product
+([GDP](https://fred.stlouisfed.org/series/GDP)) and the compensation of
+employees, received, ([W209RC1](https://fred.stlouisfed.org/series/W209RC1/)),
+both from the U.S. Bureau of Economic Analysis and available from FRED, the
+Federal Reserve Bank of St. Louis.
+
+![Annual growth rates of GDP and compensation of employees, received](../images/problem-set-1-4-1.png "Annual growth rates of GDP and compensation of employees, received")
+
+__Annual growth rates of gross domestic product (GDP) and compensation of employees, received.__
+
+| Variable | 1970–1980 | 1980–1990 | 1990–2000 | 2000–2010 | 2010–2020 | 2020–2024 | 1970–2024 |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| Growth rate of GDP ([GDP](https://fred.stlouisfed.org/series/GDP)) | 9.646210% | 7.466608% | 5.526888% |3.832350% | 4.034767% | 8.286376% | 6.120958% |
+| Growth rate of compensation of employees, received ([W209RC1](https://fred.stlouisfed.org/series/W209RC1/)) | 9.352% | 7.312% | 5.568% | 3.290% | 3.984% | 5.586% | 5.878% |
+
+__Interpretation.__
+
+> Are these data consistent with the idea from Lecture # 5 that the marginal
+> product of labor should grow at a similar rate as output per worker? If at
+> all, why or why not?
+
+**?**
+
+With the exception of the pandemic era (2020–2024, the most recent decade), the
+growth rates of GDP and compensation of employees appear to be extremely
+similar.
+
+### Question 4 Part B
+
+We will use proprietors' income with inventory valuation and capital consumption
+adjustments, nonfarm
+([A045RC1A027NBEA](https://fred.stlouisfed.org/series/A045RC1A027NBEA)), and
+farm ([B042RC1A027NBEA](https://fred.stlouisfed.org/series/B042RC1A027NBEA)),
+both from the U.S. Bureau of Economic Analysis and available from FRED, the
+Federal Reserve Bank of St. Louis.
+
+__Axiom.__
+
+Assume that labor income is the sum of: compensation of employees, received;
+proprietors' income with inventory valuation and capital consumption
+adjustments, nonfarm; and farm. Thus, "labor's share of income" is the sum of
+these three variables, divided by GDP.
+
+![Labor's share of income](../images/problem-set-1-4-2.png "Labor's share of income")
+
+__Interpretation.__
+
+* There appears to be a positive correlation between labor's share of income and
+  the variables in Part A.
+* Labor's share of income has experienced a falling trend since 1970, suggesting
+  that the share of income attributed to other factors of production (that is,
+  capital) has increased since 1970. However, capital's share of income remains
+  the minority (labor's share has been the majority since 1970).
+* It may not be appropriate to attribute 100% of proprietor's income as a
+  payment to labor, since proprietors are entitled to a share of the company's
+  profits. Relative to that of other employees, a proprietor's  income is likely
+  more dependent on company performance, and more attributable to capital owned
+  by the proprietor.
+* The falling trend in labor's share of income aligns with rising income
+  inequality. As capital accounts for more income, more productivity, and thus
+  wealth, is concentrated under the control of the owning class. Meanwhile,
+  low-income and low-skill laborers see declines in relative compensation and
+  may be replaced by improvements in technology and capital.
+* Before the COVID-19 pandemic, labor's share of income experienced an
+  increasing trend. However, during the pandemic, labor's share of income fell
+  to its lowest level since 1970. Shutdowns, layoffs, and unemployment are
+  likely responsible.
