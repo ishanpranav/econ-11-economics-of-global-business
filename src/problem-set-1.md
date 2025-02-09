@@ -201,7 +201,7 @@ The following notes apply to all data in Question 3 and Question 4.
 * Although the time series begins in 1990, data from 1989 are used to compute
   the growth rate for 1990.
 * The number of significant figures is determined by the data.
-* The compounding frequency is annual with end-of-period aggregation.
+* The periodicity is annual with end-of-period aggregation.
 
 ### Question 3 Part A
 
