@@ -10,9 +10,9 @@ ECON 11 Economics of Global Business
 
 ## Definitions
 
-Let $X$ be a continuous variable. Then $\gamma_X$ denotes its growth rate for a
-given period with $\gamma_X=\ln(X_1)-\ln(X_0)$, where $X_1$ and $X_0$ denote the
-values of $X$.
+Let $X$ be a continuous variable with value $x_t$ in period $t$. Then
+$\gamma$ denotes its growth rate for the $n$-period timespan ending in period
+$t$ with $\gamma=\frac{\ln(x_t)-\ln(x_{t-n})}{n}$.
 
 ## Question 1
 
@@ -218,7 +218,7 @@ __Annual growth rates of consumer price index (CPI) and gross domestic product (
 | Growth rate of CPI: all urban consumers ([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) | 2.632% | 2.333% | 1.726% | 4.817% | __2.534%__ |
 | Growth rate of GDP deflator ([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) | 1.9980% | 2.0767% | 1.6300% | 4.3070% | __2.1846%__ |
 
-![Annual growth rates of CPI and GDP deflator indices](../images/problem-set-1-3.png "Annual growth rates of CPI and GDP deflator indices")
+![Annual growth rates of CPI and GDP deflator indices](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-1-3.png?raw=true "Annual growth rates of CPI and GDP deflator indices")
 
 ### Question 3 Part C
 
@@ -270,7 +270,7 @@ employees, received, ([W209RC1](https://fred.stlouisfed.org/series/W209RC1/)),
 both from the U.S. Bureau of Economic Analysis and available from FRED, the
 Federal Reserve Bank of St. Louis.
 
-![Annual growth rates of GDP and compensation of employees, received](../images/problem-set-1-4-1.png "Annual growth rates of GDP and compensation of employees, received")
+![Annual growth rates of GDP and compensation of employees, received](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-1-4-1.png?raw=true "Annual growth rates of GDP and compensation of employees, received")
 
 __Annual growth rates of gross domestic product (GDP) and compensation of employees, received.__
 
@@ -321,7 +321,7 @@ proprietors' income with inventory valuation and capital consumption
 adjustments, nonfarm; and farm. Thus, "labor's share of income" is the sum of
 these three variables, divided by GDP.
 
-![Labor's share of income](../images/problem-set-1-4-2.png "Labor's share of income")
+![Labor's share of income](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-1-4-2.png?raw=true "Labor's share of income")
 
 __Interpretation.__
 
