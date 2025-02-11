@@ -194,10 +194,7 @@ percent in a continuous model.
 
 The following notes apply to all data in Question 3 and Question 4.
 
-* For each date range, the lower bound is inclusive and the upper bound is
-  exclusive. For example, "1990–2000" denotes the period of 10 consecutive
-  calendar years including 1990 and 1999 but excluding 2000.
-* Growth rates are continuous and annualized.
+* Growth rates are continuous.
 * Although the time series begins in 1990, data from 1989 are used to compute
   the growth rate for 1990.
 * The number of significant figures is determined by the data.
@@ -216,10 +213,10 @@ Louis.
 
 __Annual growth rates of consumer price index (CPI) and gross domestic product (GDP) deflator indices.__
 
-| Variable | 1990–2000 | 2000–2010 | 2010–2020 | 2010–2025 | 2025 | 1990–2025 |
-|----------|----------:|----------:|----------:|----------:|------|----------:|
-| Growth rate of CPI: all urban consumers ([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) | 2.901% | 2.528% | 1.739% | 4.113% | – | __2.635%__ |
-| Growth rate of GDP deflator ([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) | 2.1359% | 2.1515% | 1.6317% | 3.7736% | – | __2.2302%__ |
+| Variable | 1990–2000 | 2000–2010 | 2010–2020 | 2010–2024 | 1990–2024 |
+|----------|----------:|----------:|----------:|----------:|----------:|
+| Growth rate of CPI: all urban consumers ([CPIAUCSL](https://fred.stlouisfed.org/series/CPIAUCSL)) | 2.632% | 2.333% | 1.726% | 4.817% | __2.534%__ |
+| Growth rate of GDP deflator ([GDPDEF](https://fred.stlouisfed.org/series/GDPDEF/)) | 1.9980% | 2.0767% | 1.6300% | 4.3070% | __2.1846%__ |
 
 ![Annual growth rates of CPI and GDP deflator indices](../images/problem-set-1-3.png "Annual growth rates of CPI and GDP deflator indices")
 
@@ -277,29 +274,36 @@ Federal Reserve Bank of St. Louis.
 
 __Annual growth rates of gross domestic product (GDP) and compensation of employees, received.__
 
-| Variable | 1970–1980 | 1980–1990 | 1990–2000 | 2000–2010 | 2010–2020 | 2020–2024 | 1970–2024 |
+| Variable | 1970–1980 | 1980–1990 | 1990–2000 | 2000–2010 | 2010–2020 | 2020–2023 | 1970–2023 |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| Growth rate of GDP ([GDP](https://fred.stlouisfed.org/series/GDP)) | 9.646210% | 7.466608% | 5.526888% |3.832350% | 4.034767% | 8.286376% | 6.120958% |
-| Growth rate of compensation of employees, received ([W209RC1](https://fred.stlouisfed.org/series/W209RC1/)) | 9.352% | 7.312% | 5.568% | 3.290% | 3.984% | 5.586% | 5.878% |
+| Growth rate of GDP ([GDP](https://fred.stlouisfed.org/series/GDP)) | 10.08887% | 6.98762% | 5.52689% | 3.83235% | 3.65691% | 8.28638% | 6.14690% |
+| Growth rate of compensation of employees, received ([W209RC1](https://fred.stlouisfed.org/series/W209RC1/)) | 9.886% | 6.903% | 5.589% | 3.057% | 4.029% | 6.206% | 5.911% |
 
 __Interpretation.__
 
-With the exception of the pandemic era (2020–2024, the most recent decade), the
-growth rates of GDP and compensation of employees appear to be extremely
-similar.
+Before 1990, the growth rates of GDP and employee compensation appear to be
+extremely similar. After 1990, the growth rate of GDP is consistently higher
+than that of employee compensation.
 
-The marginal product of labor reflects labor demand, and its growth rate is thus
-linked to the growth rate of compensation. Output per worker tends to grow at a
-similar rate, although the correlation has weakened in recent decades. The
-strong, but weakening, relationship between growth rates of GDP and compensation
-of employess _is_ likely driven by the same factors which drive the strong, but
-weakening, relationship between marginal product of labor and output per worker.
+The marginal product of labor reflects labor demand, so its growth rate is
+linked to that of compensation. Output per worker tends to grow at a similar
+rate, although the correlation has weakened in recent decades. Of course, the
+growth rate of output per worker is linked to that of GDP, and, holding the
+number of workers constant, their growth rates are the same.
+
+The strong-but-weakening relationships between GDP and employee compensation and
+between marginal product of labor and output per worker are likely driven by the
+same underlying factors.
+
+If, as assumed by the Cobb–Douglas model, the allocation of income to labor and
+capital is constant, then GDP and compensation of employees should grow at the
+same rate. Empirically, however, they do not, and Part B suggests that the
+assumption may not hold in practice.
 
 One explanation is that the economy is substituting some types of labor for
 capital via automation. If this is true, the simpler Cobb–Douglas production
-function is likely insufficient in capturing this effect, and a more robust
-model is required. Where Cobb–Douglas assumes constant shares of income to labor
-and capital, Part B suggests that this assumption may not hold in practice.
+function does not capture this effect over time: A more robust model is
+required.
 
 ### Question 4 Part B
 
