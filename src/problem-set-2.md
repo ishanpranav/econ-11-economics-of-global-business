@@ -55,7 +55,8 @@ $$L^\ast=0.25\cdot 100^2\cdot 1^2\cdot\left(\frac{W}{P}\right)^{-2}=2500\left(\f
 > values of the wage and the employment level for this economy. Display
 > graphically the labor supply and the labor demand curves.
 
-Using our expression for the real wage, we can solve for $W/P$, the real wage, for a given labor supply; for $L=100$, we have:
+Using our expression for the real wage, we can solve for $W/P$, the real wage,
+for a given labor supply; for $L=100$, we have:
 
 $$\begin{align*}
 \frac{W}{P}&=0.5\cdot 100\cdot 1\cdot (100)^{-0.5}=5.\\
