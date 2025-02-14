@@ -63,3 +63,7 @@ $$\begin{align*}
 \end{align*}$$
 
 Thus, the real wage is 5 units.
+
+__Market for labor: marginal product of labor (demand) *vs.* labor supply.__
+
+![Market for labor](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-1.png?raw=true "Market for labor")
