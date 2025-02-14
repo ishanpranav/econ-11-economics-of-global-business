@@ -66,4 +66,15 @@ Thus, the real wage is 5 units.
 
 __Market for labor: marginal product of labor (demand) *vs.* labor supply.__
 
-![Market for labor](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-1.png?raw=true "Market for labor")
+![Market for labor](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-1-2.png?raw=true "Market for labor")
+
+### Question 1 Part C
+
+> Suppose the economy faces a positive productivity shock and total factor
+> productivity is now $A'=200$. Display graphically the new labor demand
+> function. What are the equilibrium values of employment and the real wage?
+
+Based on our expression for the marginal product of labor, labor demand is
+scaled proportionally.
+
+![Market for labor, adjusted](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-1-3.png?raw=true "Market for labor, adjusted")
