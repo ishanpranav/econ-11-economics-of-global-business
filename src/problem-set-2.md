@@ -53,7 +53,6 @@ $$L^\ast=0.25\cdot 100^2\cdot 1^2\cdot\left(\frac{W}{P}\right)^{-2}=2500\left(\f
 
 > Assume labor supply is inelastic and fixed at $L=100$ units. Find the
 > equilibrium values of the wage and the employment level for this economy.
-> Display graphically the labor supply and the labor demand curves.
 
 Using our expression for the real wage, we can solve for $W/P$, the real wage,
 for a given labor supply; for $L=100$ units, we have:
@@ -177,7 +176,7 @@ expense of the working class and the broader economy.
 ### Question 1 Part G
 
 > Do you think the analysis provides a good way of thinking about a minimum-wage
-> law? Why or why not?
+> law?
 
 Yes, this analysis offers a framework for demonsrtating how a minimum wage can
 be destructive to the economy and counterproductive to its aims.
@@ -322,4 +321,91 @@ __Interpretation.__
 
 China and Brazil have both experienced diminishing marginal product of capital.
 The effect is much more pronounced in China: Its a high marginal product of
-capital fell until it equaled Brazil's low marginal product of capital.
+capital fell until it equaled, then crossed below, Brazil's low marginal product
+of capital.
+
+### Question 3 Part D
+
+__Brazil: Growth rates of output per worker, capital per worker, and total factor production.__
+
+| Brazil | $Y/L$ | $\alpha K/L$ | $A$ |
+|---------------|------:|-------------:|----:|
+| __1980–1995__ | -0.474258% | 0.378754% | -0.853012% |
+| __1995–2019__ | 0.480272% | 0.317240% | 0.163032% |
+
+__China: Growth rates of output per worker, capital per worker, and total factor production.__
+
+| China | $Y/L$ | $\alpha K/L$ | $A$ |
+|--------|------:|-------------:|----:|
+| __1980–1995__ | 3.876846% | 2.003854% | 1.872992% |
+| __1995–2019__ | 5.634870% | 3.447166% | 2.187704% |
+
+### Question 3 Part E
+
+__Interpretation.__
+
+* The most meaningful growth accounting component appears to be that of total
+  factor production.
+  * Stark differences in technological advancement (China's high growth rate of
+    $A$, and Brazil's lack thereof), correspond with divergent trajectories for
+    output per worker.
+  * China's rapid growth in total factor production between 1980 and 2019, and
+    especially during the more recent decades from 1995 to 2019, has created
+    rapid growth in output per worker.
+  * Meanwhile, Brazil's total factor production grew at a margianlly negative
+    rate between 1980 and 1995 and a marginally positive rate between 1995 and
+    2019, experiencing a sideways trend overall; this corresponds with the
+    stagnation in the output per worker in Brazil.
+* Returns on capital reflect an influx of investment in China.
+  * In 1980, labor was relatively abundant in China, and capital was likely a
+    limiting factor in growth. The result was a high marginal product of
+    capital.
+  * China's marginal product of capital fell consistently between 1980 and 2019,
+    suggesting that the high demand for capital was satisfied through
+    investment.
+  * In Brazil, marginal product of capital was stable over the entire period,
+    suggesting that it may have already been close to equilibrium.
+  * China's marginal product of capital fell to meet Brazil's, which lends some
+    credibility to this hypothesis.
+* The explosion in technology and capital in China between 1980 and 2019
+  reflects a period of unparalleled industrialization, modernization, and
+  advancement.
+* Infrastructure, regulation, and governance may have contributed to the
+  differing outcomes of Brazil and China during this period.
+  * In 2019, the
+    [World Bank's _Doing Business_](https://archive.doingbusiness.org/en/rankings)
+    rankings placed China as 31st in terms of ease of doing business; Brazil was
+    124th. The relative ease of doing business in China may be correlated with
+    its progress.
+  * According to the
+    [World Bank's Worldwide Governance Indicators](https://govindicators.org/),
+    China is in the 73rd percentile for government effectiveness; Brazil, is in
+    the 32nd percentile. Whereas China's government effectiveness score has been
+    rising, Brazil's has been falling. Differences in government efficacy may
+    explain Brazil's stagnation and China's acceleration.
+
+## Question 4: Solow model
+
+> Consider the Solow model with no population or technological growth. Suppose
+> that two countries are identical except that in Country A the depreciation
+> rate is greater than the depreciation rate in Country B.
+
+For each period $t$, let $k_t$ denote capital per worker, $s$ denote the savings
+rate, $y_t$ denote output per worker, and $\delta$ denote the depreciation rate.
+The capital per worker in period $t+1$ is given by the Solow model.
+
+$$k_{t+1}=sy_t+(1-\delta)k_t.$$
+
+Let $\delta_{\rm A}$ (respectively, $\delta_{\rm B}$) denote the depreciation
+rate in Country A (respectively, Country B). Note
+$\delta_{\rm A}>\delta_{\rm B}$.
+
+### Question 4 Part 1
+
+> How do you compare the steady state level of capital per worker in these
+> countries? Explain the economic intuition for the differences in capital per
+> worker in steady state.
+
+__Steady-state capital per worker: depreciation (Country A *vs.* Country B) and investment.__
+
+![Steady-state capital per worker.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-4-1.png?raw=true "Steady-state capital per worker")
