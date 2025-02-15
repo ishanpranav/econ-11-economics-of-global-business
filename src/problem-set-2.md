@@ -275,3 +275,10 @@ and Marcel P. Timmer, and available from the
 __GDP per worker for Brazil and China, 1980–2019.__
 
 ![GDP per worker for Brazil and China, 1980–2019.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-3-1.png?raw=true "GDP per worker for Brazil and China, 1980–2019")
+
+__Interpretation.__
+
+Whereas GDP per worker has accelerated in China, it has remained somewhat
+constant in Brazil.
+
+### Question 3 Part B
