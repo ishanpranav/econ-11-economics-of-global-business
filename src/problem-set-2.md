@@ -271,8 +271,6 @@ and available from the
 
 ### Question 3 Part A
 
-> How has gross domestic product per worker evolved in the two countries?
-
 __Gross domestic product (GDP) per worker for Brazil and China, 1980–2019.__
 
 ![GDP per worker for Brazil and China, 1980–2019.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-3-1.png?raw=true "GDP per worker for Brazil and China, 1980–2019")
@@ -296,3 +294,32 @@ A_t=Y_tK_t^{-\frac{1}{3}}L_t^{-\frac{2}{3}}.
 __Total factor productivity index for Brazil and China, 1980–2019, where 1980=100.__
 
 ![Total factor productivity index for Brazil and China, 1980–2019, where 1980=100.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-3-2.png?raw=true "Total factor productivity index for Brazil and China, 1980–2019, where 1980=100")
+
+__Interpretation.__
+
+In China, total factor productivity accelerated before plateauing; meanwhile, it
+has remained somewhat constant in Brazil.
+
+### Question 3 Part C
+
+The marginal product of capital $\frac{\partial Y}{\partial K}$ is the change in
+output with respect to capital.
+
+$$\begin{align*}
+\frac{\partial Y}{\partial K}&=
+\frac{\partial}{\partial K}\left(AK^\alpha L^{1-\alpha}\right),\\
+&=A\cdot\alpha K^{\alpha-1}\cdot L^{1-\alpha},\\
+&=\alpha\cdot AK^\alpha L^{1-\alpha}\cdot K^{-1},\\
+&=\alpha\frac{Y}{K}\\
+&=\frac{Y}{3K}.
+\end{align*}$$
+
+__Marginal product of capital for Brazil and China, 1980–2019.__
+
+![Marginal product of capital for Brazil and China, 1980–2019.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-3-3.png?raw=true "Marginal product of capital for Brazil and China, 1980–2019")
+
+__Interpretation.__
+
+China and Brazil have both experienced diminishing marginal product of capital.
+The effect is much more pronounced in China: Its a high marginal product of
+capital fell until it equaled Brazil's low marginal product of capital.
