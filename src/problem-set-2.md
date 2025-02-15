@@ -2,7 +2,7 @@
 
 Ishan Pranav
 
-February 11, 2025
+February 25, 2025
 
 Professor Pricila Maziero
 
@@ -182,9 +182,9 @@ expense of the working class and the broader economy.
 Yes, this analysis offers a framework for demonsrtating how a minimum wage can
 be destructive to the economy and counterproductive to its aims.
 
-However, like any model, the Cobb–Douglass production function is a product of,
+However, like any model, the Cobb–Douglas production function is a product of,
 and thus limited by, its assumptions. No decision should be made using a single
-model, and our Cobb–Douglass-based analysis fails to capture frictions in the
+model, and our Cobb–Douglas-based analysis fails to capture frictions in the
 labor market and may overestimate how easily labor can be replaced or
 eliminated.
 
@@ -259,20 +259,21 @@ interest rate rises to 7.5 percent.
 
 ## Question 3: Emerging market forecasting and growth accounting
 
-> What drives gross domestic product (GDP) growth in Brazil and China? How do
-> they compare to each other? Assume that, in both countries, payments to labor
+> What drives gross domestic product growth in Brazil and China? How do they
+> compare to each other? Assume that, in both countries, payments to labor
 > $1-\alpha=\frac{2}{3}$.
 
-We will use real GDP and real capital stock at constant prices (2017), and
-employment, number of persons engaged—both by Robert C. Feenstra, Robert Inklaar
-and Marcel P. Timmer, and available from the
+For each period $t$, we use real gross domestic product $Y_t$ and real capital
+stock $K_t$ at constant prices (2017), and employment, number of persons engaged
+$L_t$—both datasets by Robert C. Feenstra, Robert Inklaar and Marcel P. Timmer,
+and available from the
 [Penn World Table 10.01](https://www.rug.nl/ggdc/productivity/pwt/?lang=en).
 
 ### Question 3 Part A
 
-> How has GDP per worker evolved in the two countries?
+> How has gross domestic product per worker evolved in the two countries?
 
-__GDP per worker for Brazil and China, 1980–2019.__
+__Gross domestic product (GDP) per worker for Brazil and China, 1980–2019.__
 
 ![GDP per worker for Brazil and China, 1980–2019.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-3-1.png?raw=true "GDP per worker for Brazil and China, 1980–2019")
 
@@ -282,3 +283,16 @@ Whereas GDP per worker has accelerated in China, it has remained somewhat
 constant in Brazil.
 
 ### Question 3 Part B
+
+For each period $t$, the total factor productivity $A_t$ is derived from the
+Cobb–Douglas production function.
+
+$$\begin{align*}
+Y_t=A_tK_t^{\alpha}L_t^{1-\alpha}.\\
+A_t=Y_tK_t^{-\alpha}L_t^{\alpha-1},\\
+A_t=Y_tK_t^{-\frac{1}{3}}L_t^{-\frac{2}{3}}.
+\end{align*}$$
+
+__Total factor productivity index for Brazil and China, 1980–2019, where 1980=100.__
+
+![Total factor productivity index for Brazil and China, 1980–2019, where 1980=100.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-3-2.png?raw=true "Total factor productivity index for Brazil and China, 1980–2019, where 1980=100")

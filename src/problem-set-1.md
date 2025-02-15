@@ -270,14 +270,14 @@ employees, received, ([W209RC1](https://fred.stlouisfed.org/series/W209RC1/)),
 both from the U.S. Bureau of Economic Analysis and available from FRED, the
 Federal Reserve Bank of St. Louis.
 
-![Annual growth rates of GDP and compensation of employees, received](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-1-4-1.png?raw=true "Annual growth rates of GDP and compensation of employees, received")
-
 __Annual growth rates of gross domestic product (GDP) and compensation of employees, received.__
 
 | Variable | 1970–1980 | 1980–1990 | 1990–2000 | 2000–2010 | 2010–2020 | 2020–2023 | 1970–2023 |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | Growth rate of GDP ([GDP](https://fred.stlouisfed.org/series/GDP)) | 10.08887% | 6.98762% | 5.52689% | 3.83235% | 3.65691% | 8.28638% | 6.14690% |
 | Growth rate of compensation of employees, received ([W209RC1](https://fred.stlouisfed.org/series/W209RC1/)) | 9.886% | 6.903% | 5.589% | 3.057% | 4.029% | 6.206% | 5.911% |
+
+![Annual growth rates of GDP and compensation of employees, received](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-1-4-1.png?raw=true "Annual growth rates of GDP and compensation of employees, received")
 
 __Interpretation.__
 
