@@ -400,7 +400,7 @@ Let $\delta_{\rm A}$ (respectively, $\delta_{\rm B}$) denote the depreciation
 rate in Country A (respectively, Country B). Note
 $\delta_{\rm A}>\delta_{\rm B}$.
 
-### Question 4 Part 1
+### Question 4 Part A
 
 > How do you compare the steady state level of capital per worker in these
 > countries? Explain the economic intuition for the differences in capital per
@@ -409,3 +409,47 @@ $\delta_{\rm A}>\delta_{\rm B}$.
 __Steady-state capital per worker: depreciation (Country A *vs.* Country B) and investment.__
 
 ![Steady-state capital per worker.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-2-4-1.png?raw=true "Steady-state capital per worker")
+
+*Caeteris paribus*, the steady-state capital per worker is higher in Country B
+than in Country A. Intuitively, Country B has a lower depreciation rate;
+therefore, less of the investment amount is expended in replenishing existing
+capital, and thus capital stock accumulates faster. Charting depreciation and investment demonstrates this result graphically.
+
+We can also demonstrate this result by analyzing the expression for steady-state
+capital per worker $k^\ast$. Let $k^\ast_A$ (respectively, $k^\ast_B$) denote
+the steady-state capital per worker for Country A (respectively, Country B).
+
+$$k^\ast=\left(\frac{s}{\delta}\right)^{\frac{1}{1-\alpha}}.$$
+
+Of course, $0\lt\alpha\lt 1$ so $\frac{1}{1-\alpha}\gt 0$. Therefore, since
+$\delta_A\gt\delta_B$, we have that $k^\ast_A\lt k^\ast_B$.
+
+### Question 4 Part B
+
+>  Which country a higher output per worker in steady state? What about
+> investment per worker in steady state?
+
+*Caeteris paribus*, steady-state output per worker and investment per worker are
+higher in Country B than in Country A.
+
+The steady-state output per worker $y^\ast$ is a function of $k^\ast$. Let
+$y^\ast_A$ (respectively, $y^\ast_B$) denote steady-state output per worker for
+Country A (respectively, Country B).
+
+$$y^\ast={k^\ast}^\alpha.$$
+
+From Part A, we know that $k^\ast_A\lt k^\ast_B$.
+
+Of course, $0\lt\alpha\lt 1$, so $y^\ast_A\lt y^\ast_B$.
+
+The steady-state investment per worker $i^\ast$ is also a function of $k^\ast$.
+Let $i^\ast_A$ (respectively, $i^\ast_B$) denote steady-state investment per
+worker for Country A (respectively, Country B).
+
+$$i^\ast=s{k^\ast}^\alpha.$$
+
+Again, $k^\ast_A\lt k^\ast_B$ and since $0\lt\alpha\lt 1$, we have
+$i^\ast_A\lt i^\ast_B$.
+
+Thus, output per worker and investment per worker are lower in Country A than in
+Country B.
