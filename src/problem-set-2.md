@@ -326,29 +326,29 @@ of capital.
 
 ### Question 3 Part D
 
-__Brazil: Growth rates of output per worker, capital per worker, and total factor production.__
+__Brazil: Growth rate of output per worker, decomposed into contributions from capital and total factor production.__
 
-| Brazil | $Y/L$ | $\alpha K/L$ | $A$ |
+| Brazil | $\Delta(Y/L)$ | $\alpha\Delta(K/L)$ | $\Delta A$ |
 |---------------|------:|-------------:|----:|
-| __1980–1995__ | -0.474258% | 1.136261% | -0.853012% |
-| __1995–2019__ | 0.480272% | 0.951720% | 0.163032% |
+| __1980–1995__ | -0.474258% | 0.378754% | -0.853012% |
+| __1995–2019__ | 0.480272% | 0.317240% | 0.163032% |
 
-__China: Growth rates of output per worker, capital per worker, and total factor production.__
+__Brazil: Growth rate of output per worker, decomposed into contributions from capital and total factor production.__
 
-| China | $Y/L$ | $\alpha K/L$ | $A$ |
+| China | $\Delta(Y/L)$ | $\alpha\Delta(K/L)$ | $\Delta A$ |
 |--------|------:|-------------:|----:|
-| __1980–1995__ | 3.876846% | 6.011561% | 1.872992% |
-| __1995–2019__ | 5.634870% | 10.341498% | 2.187704% |
+| __1980–1995__ | 3.876846% | 2.003854% | 1.872992% |
+| __1995–2019__ | 5.634870% | 3.447166% | 2.187704% |
 
 ### Question 3 Part E
 
 __Interpretation.__
 
-* The most meaningful growth accounting component appears to be that of total
-  factor production.
-  * Stark differences in technological advancement (China's high growth rate of
-    $A$, and Brazil's lack thereof), correspond with divergent trajectories for
-    output per worker.
+* The more meaningful growth accounting component appears to be capital per
+  worker; however, the relative trajectory of an economy is largely driven by
+  its total factor productivity.
+  * Capital per worker is the largest contributor to output per worker in both
+    countries.
   * China's rapid growth in total factor production between 1980 and 2019, and
     especially during the more recent decades from 1995 to 2019, has created
     rapid growth in output per worker.
