@@ -31,23 +31,23 @@ the price of goods in the economy.
 $$\begin{align*}
 \frac{W}{P}&=\frac{\partial Y}{\partial L},\\
 &=\frac{\partial}{\partial L}\left(AK^{0.5}L^{0.5}\right),\\
-&=AK\cdot 0.5L^{0.5-1},\\
-&=0.5AKL^{-0.5}.
+&=AK^{0.5}\cdot 0.5L^{0.5-1},\\
+&=0.5AK^{0.5}L^{-0.5}.
 \end{align*}$$
 
 Using this expression for the real wage, we can solve for $L^*$, the optimal
 labor demand.
 
 $$\begin{align*}
-0.5AK{L^\ast}^{-0.5}&=\frac{W}{P},\\
-{L^\ast}^{-0.5}&=2A^{-1}K^{-1}\cdot\frac{W}{P},\\
-L^\ast&=\left(2A^{-1}K^{-1}\cdot\frac{W}{P}\right)^{-2},\\
-L^\ast&=0.25A^{2}K^{2}\left(\frac{W}{P}\right)^{-2}.\\
+0.5AK^{0.5}{L^\ast}^{-0.5}&=\frac{W}{P},\\
+{L^\ast}^{-0.5}&=2A^{-1}K^{-0.5}\cdot\frac{W}{P},\\
+L^\ast&=\left(2A^{-1}K^{-0.5}\cdot\frac{W}{P}\right)^{-2},\\
+L^\ast&=0.25A^{2}K\left(\frac{W}{P}\right)^{-2}.\\
 \end{align*}$$
 
 For $A=100$ and $K=1$ unit, we have:
 
-$$L^\ast=0.25\cdot 100^2\cdot 1^2\cdot\left(\frac{W}{P}\right)^{-2}=2500\left(\frac{W}{P}\right)^{-2}.$$
+$$L^\ast=0.25\cdot 100^2\cdot 1\cdot\left(\frac{W}{P}\right)^{-2}=2500\left(\frac{W}{P}\right)^{-2}.$$
 
 ### Question 1 Part B
 
@@ -330,15 +330,15 @@ __Brazil: Growth rates of output per worker, capital per worker, and total facto
 
 | Brazil | $Y/L$ | $\alpha K/L$ | $A$ |
 |---------------|------:|-------------:|----:|
-| __1980–1995__ | -0.474258% | 0.378754% | -0.853012% |
-| __1995–2019__ | 0.480272% | 0.317240% | 0.163032% |
+| __1980–1995__ | -0.474258% | 1.136261% | -0.853012% |
+| __1995–2019__ | 0.480272% | 0.951720% | 0.163032% |
 
 __China: Growth rates of output per worker, capital per worker, and total factor production.__
 
 | China | $Y/L$ | $\alpha K/L$ | $A$ |
 |--------|------:|-------------:|----:|
-| __1980–1995__ | 3.876846% | 2.003854% | 1.872992% |
-| __1995–2019__ | 5.634870% | 3.447166% | 2.187704% |
+| __1980–1995__ | 3.876846% | 6.011561% | 1.872992% |
+| __1995–2019__ | 5.634870% | 10.341498% | 2.187704% |
 
 ### Question 3 Part E
 
