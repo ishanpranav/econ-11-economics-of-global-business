@@ -333,7 +333,7 @@ __Brazil: Growth rate of output per worker, decomposed into contributions from c
 | __1980–1995__ | -0.474258% | 0.378754% | -0.853012% |
 | __1995–2019__ | 0.480272% | 0.317240% | 0.163032% |
 
-__Brazil: Growth rate of output per worker, decomposed into contributions from capital and total factor production.__
+__China: Growth rate of output per worker, decomposed into contributions from capital and total factor production.__
 
 | China | $\Delta(Y/L)$ | $\alpha\Delta(K/L)$ | $\Delta A$ |
 |--------|------:|-------------:|----:|
@@ -352,7 +352,7 @@ __Interpretation.__
   * China's rapid growth in total factor production between 1980 and 2019, and
     especially during the more recent decades from 1995 to 2019, has created
     rapid growth in output per worker.
-  * Meanwhile, Brazil's total factor production grew at a margianlly negative
+  * Meanwhile, Brazil's total factor production grew at a marginally negative
     rate between 1980 and 1995 and a marginally positive rate between 1995 and
     2019, experiencing a sideways trend overall; this corresponds with the
     stagnation in the output per worker in Brazil.
