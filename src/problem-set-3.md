@@ -10,10 +10,6 @@ ECON 11 Economics of Global Business
 
 ## Question 1: U.S. and trade
 
-As aides to Senator Kirsten Gillibrand (D-NY) in the U.S. Congress, we are
-charged with analyzing U.S. trade deficits and their potential connection with
-the budget deficit of the U.S. government.
-
 We will use exports of goods and services
 ([EXPGS](https://fred.stlouisfed.org/series/EXPGS)) and imports of goods and
 services ([IMPGS](https://fred.stlouisfed.org/series/IMPGS)), both from the U.S.
@@ -146,3 +142,85 @@ __Counterexamples.__
     addressed the economic fallout of COVID-19 with stimulus, loans, and
     spending. The fiscal deficit exploded to its highest level as a share of GDP
     in recent memory.
+
+## Question 2: The Ricardian model and Argentina
+
+> Argentina can produce two goods: manufactures and beef. The technologies to
+> produce manufactures and beef both only use labor and have constant marginal
+> products of labor (MPL). The MPL in manufactures is 2; the MPL in beef
+> production is 6.
+
+### Question 2 Part A
+
+> In autarky, what is the relative price of beef to manufactures?
+
+Each unit of labor produces 2 units of manufactures (respectively, 6 units of
+beef), so its price is 1/2 (respectively, 1/6). The relative price of beef to
+manufactures is the quantity of manufactures that can be purchased with per unit
+of beef: 1/3.
+
+Equivalently, the relative price of beef to manufactures is the opportunity cost
+of beef, or 2/6, which also gives 1/3.
+
+### Question 2 Part B
+
+> Suppose that Argentina is a small open economy. If the world relative price of
+> beef to manufactures is 1/2, will international trade benefit those in
+> Argentina? If so, what product will Argentina export? What product will it
+> import?
+
+Since Argentina is a small open economy, it takes world prices as given and will
+have no impact on international supplies and prices.
+
+Since the world relative price of beef to manufactures is 1/2, compared with
+just 1/3 in Argentina, we know that Argentina has a comparative advantage in
+beef. Therefore, Argentina will experience gains from international trade. Those
+in Argentina will benefit from exchanging domestic beef for foreign manufactures
+as a result of specialization in the area of comparative advantage.
+
+Argentina will export beef since it has a comparative advantage in beef: It can
+produce domestic beef at a lower oppportunity cost than its foreign trading
+partners.
+
+There are only two goods, so we know that Argentina will import manufactures.
+The relative price of manufactures to beef is just 2 in the world economy,
+compared with 3 in Argentina, so Argentina should import foreign maufactures.
+
+### Question 2 Part C
+
+> Suppose that Argentina’s labor force equals 100 units. Illustrate the
+> production possibility frontier, the point at which Argentina will produce,
+> and the consumption possibility frontier.
+
+__Production and consumption possibility frontiers.__
+
+![Production and consumption possibility frontiers.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-2-3.png?raw=true "Production and consumption possibility frontiers")
+
+The green line indicates the production possibility frontier, and the red line
+indicates the consumption possibility frontier.
+
+### Question 2 Part D
+
+> Since the early 2000s, incomes in China have risen, and in turn, their demand
+> for Argentine beef has risen. As a result of China’s growth, this increase in
+> demand has pushed up the world relative price of beef to manufactures to 2/3.
+> How has Argentina’s consumption possibility frontier changed? How have real
+> wages (in units of manufactures) grown in Argentina?
+
+__Modified production and consumption possibility frontiers.__
+
+![Modified production and consumption possibility frontiers.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-2-4.png?raw=true "Modified production and consumption possibility frontiers")
+
+Again, the green line indicates the production possibility frontier, while the
+red line indicates the consumption possibility frontier.
+
+Before the change in demand, the real wage in units of manufactures is the
+product of the relative price of beef to manufactures (1/2) and the marginal
+product of labor of beef (6): 3.
+
+After the change in demand, the rael wage is the product of 2/3 and 6, or 4.
+
+Thus, the real wage in Argentina rises.
+
+### Question 2 Part E
+
