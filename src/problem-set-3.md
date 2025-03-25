@@ -216,11 +216,37 @@ red line indicates the consumption possibility frontier.
 
 Before the change in demand, the real wage in units of manufactures is the
 product of the relative price of beef to manufactures (1/2) and the marginal
-product of labor of beef (6): 3.
+product of labor of beef (6), or 3.
 
-After the change in demand, the rael wage is the product of 2/3 and 6, or 4.
+After the change in demand, the real wage is the product of 2/3 and 6, or 4.
 
-Thus, the real wage in Argentina rises.
+Thus, the real wage in Argentina rises from 3 units of manufactures to 4.
 
 ### Question 2 Part E
 
+> Suppose that the Argentine government places a tax on the exports of beef to
+> keep domestic food prices low. Specifically, for every 1 unit of beef sold
+> internationally, the government takes 1/4 of a unit of beef. What is the
+> effective world relative price those in Argentina face? How will real wages
+> (in units of manufactures) change in response to the tax? How do you think
+> vegetarians in Argentina feel about this policy?
+
+Before the tax, producers receive 1/2 unit of manufactures for each unit of beef
+exported.
+
+After the tax, producers receive 3/4 of 1/2, or 3/8 units of manufactures for
+each unit of beef exported. So the effective world relative price of beef to
+manufactures in Argentina is 3/8.
+
+After the tax, the real wage is the product of 3/8 and 6, or 2.25 units of
+manufactures.
+
+After both the tax and the increase in demand from China, the real wage is the
+product of 2/3, 3/4, and 6, or 3 units of manufactures. This suggests that the
+tax cancels all the benefits from the spike in Chinese demand for Argentine
+beef.
+
+In all cases, the policy reduces the real wage.
+
+Since vegetarians in Argentina do not benefit from reduced domestic beef prices,
+they are likely to oppose the policy.
