@@ -35,11 +35,38 @@ __Selected values of exports (EXPGS), imports (IMPGS), net exports, and U.S. bud
 
 ### Question 1 Part B
 
-__U.S. exports and imports as a percentage of nominal gross domestic product (GDP).__
-
 We will use the nominal gross domestic product
 ([GDP](https://fred.stlouisfed.org/series/GDP)) from the U.S. Bureau of Economic
 Analysis and available from FRED, the Federal Reserve Bank of St. Louis.
 
-![U.S. exports and imports as a percentage of nominal GDP.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-1.png?raw=true "Question 1 Part B")
+__U.S. exports and imports as a percentage of nominal GDP.__
 
+![U.S. exports and imports as a percentage of nominal GDP.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-1-2.png?raw=true "Imports' and exports' share of output")
+
+__Interpretation.__
+
+* Over the past 50 years, the growth in imports' share of output has outpaced
+  that of exports. Thus, the U.S. has shifted from a net exporter to a net
+  importer.
+* The U.S. trade balance has become a deficit, and the deficit's share of output
+  has increased over the last half-century.
+* Both imports' share and exports' share of output have experienced an
+  increasing trend over the last 50 years. This trend indicates that U.S.
+  foreign trade has become more open as trade accounts for a greater portion of
+  the domestic economy.
+  * One explanation is the globalization of the world economy and the
+    industrialization of emerging countries during this period.
+  * Since 1970, the U.S. has been shifting into a service-oriented economy, and
+    thus may rely more heavily on imported goods. This coincides with increases
+    in education, technology, and the cost of labor.
+  * The Cold War saw increased American interventionism, the liberalization of
+    foreign economies, and the emergence of the U.S. as the sole world
+    superpower.
+  * The hegemony of the U.S. dollar and other American institutions still drives
+    U.S. trade policy.
+
+### Question 1 Part C
+
+__U.S. net exports or (imports) and budget surplus or (deficit) as a percentage of nominal GDP.__
+
+![U.S. net exports or (imports) and budget surplus or (deficit) as a percentage of nominal GDP.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-1-3.png?raw=true "Shares of output: net exports and budget surplus")
