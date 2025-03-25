@@ -250,3 +250,133 @@ In all cases, the policy reduces the real wage.
 
 Since vegetarians in Argentina do not benefit from reduced domestic beef prices,
 they are likely to oppose the policy.
+
+## Question 3: Trade dispute
+
+> You are a research associate covering the solar panel industry for Goldman
+> Sachs. The countries of Transylvania and Oceania are having a trade dispute.
+> Upset with behavior of Transylvanian firms, the government of Oceania is
+> threatening to close its market to Transylvanian firms. You are asked to write
+> a research report on the implications of this scenario.
+
+Some information about the solar panel industry in the Oceania and Transylvania:
+
+* Firms in both countries share the same technological characteristics.
+ Consultants from Accenture report that the fixed costs associated with
+ producing a solar panel are $F=\$50000$, the variable costs associated with
+ producing a solar panel are $c=\$25\text{ per unit}$. The demand elasticity
+ parameter $b$ was estimated to be $\frac{1}{50}$.
+* Your analyst reports industry characteristics of the Oceania and Transylvania
+ market: Currently there are $n=10$ firms in the combined market. Of these,
+ $n_1=3$ firms are located in Oceania. The other $n_2=7$ firms are from
+ Transylvania.
+* Total solar panel demand (and units sold) in the combined market is
+ $S=100000\text{ units}$ units. Out of the total, $S_1=25000\text{ units}$ were
+ sold in Oceania and $S_2=75000\text{ units}$ units were sold in Transylvania.
+
+### Question 3 Part A
+
+> In a preliminary draft of the report, your research analyst writes, "our team
+> at Goldman expects, in long-run, the Oceania market (when closed to foreign
+> competition) to be entirely comprised of the current three firms located in
+> Oceania." Is this correct? Why or why not?
+
+The long-run equilibrium in the closed Oceania market occurs when the price $P$
+is equal to the average cost $\bar{C}$.
+
+We can solve for $n_1^*$, the long-run equilibrium number of firms in the
+Oceania market.
+
+$$\begin{align*}
+P&=\bar{C},\\
+c+\frac{1}{n_1^*b}&=c+n_1^*\cdot\frac{F}{S_1},\\
+\frac{1}{n_1^*b}&=n_1^*\cdot\frac{F}{S_1}.
+\end{align*}$$
+
+$$\begin{align*}
+n_1^*&=\sqrt{\frac{S_1}{bF}},\\
+&=\sqrt{\frac{25000\text{ units}}{\frac{1}{50}\cdot\$50000}},\\
+&=5.
+\end{align*}$$
+
+The long-run equilibrium is 5 firms in the Oceania market. Thus, our research
+analyst is incorrect.
+
+### Question 3 Part B
+
+> Explain to your research analyst how and why the Oceania market will evolve if
+> it closes to foreign competition.
+
+Suppose the Oceania market closes to foreign competition. At first, there will
+be $n_1=3$ firms.
+
+We can model the price per solar panel $P_1$ as the sum of the variable cost and
+markup.
+
+$$\begin{align*}
+P_1&=c+\frac{1}{n_1b},\\
+&=\$25+\frac{1}{3\cdot\frac{1}{50}},\\
+&=41.\overline{6}.
+\end{align*}$$
+
+The price per solar panel is $41.67. We can model the average cost $\bar{C}_1$
+as the sum of variable costs and fixed costs.
+
+$$\begin{align*}
+\bar{C}_1&=c+n_1\cdot\frac{F}{S},\\
+&=\$25\text{ per unit}+3\cdot\frac{\$50000}{25000\text{ units}},\\
+&=\$31\text{ per unit}.
+\end{align*}$$
+
+The average cost is $31.00 per solar panel.
+
+Since the price is greater than the average cost, firms will enter the market to
+capture the abnormal profits. As a result, the long-run equilibrium must be
+greater than 3.
+
+When there are 5 firms, both the price and the average cost are $35 per unit. At
+this point, there is no incentive to enter or exit the market, and the number of
+firms remains constant in the long-run.
+
+### Question 3 Part C
+
+> A colleague argues that closing the Oceania market to foreign competition is
+> good for the firms currently operating in Oceania—in the long run—because it
+> will “return pricing power” to firms, and hence, each individual firm’s
+> revenues will increase relative to the current situation (i.e. the combined
+> market). Is your colleague correct?
+
+We can compare firms' revenue $R$ in the combined market with $R_1$, their
+revenue in the closed Oceania market.
+
+$$\begin{align*}
+R&=\left(c+\frac{1}{n^*b}\right)\cdot\frac{S_1}{n_1},\\
+&=\left(\$25+\frac{1}{10\times\frac{1}{50}}\right)\cdot\frac{25000}{3},\\
+&=\$250000.
+\end{align*}$$
+
+$$\begin{align*}
+R_1&=\left(c+\frac{1}{n_1^*b}\right)\cdot\frac{S_1}{n_1^*},\\
+&=\left(\$25+\frac{1}{5\times\frac{1}{50}}\right)\cdot\frac{25000}{5},\\
+&=\$175000.
+\end{align*}$$
+
+Since $R>R_1$, individual firms should prefer the combined market since it
+maximizes their per-firm revenue. Thus, our colleague is incorrect.
+
+### Question 3 Part D
+
+> Your managing director suggests that you speculate on the following issue: If
+> firms differ in their efficiency, how will average industry productivity
+> change (if at all) in the Oceania market as it closes to foreign competition?
+
+If firms differ in efficiency, then Oceania's industry productivity may decline
+if it closes to foreign competition.
+
+Competition incentivizes innovation and efficiency. Without exposure to
+international markets, Oceania may suffer from complacency since the closed
+market creates inefficient barriers to entry that stifle innovation and creative
+destruction.
+
+## Question 4: Small open economy and trade deficit
+
