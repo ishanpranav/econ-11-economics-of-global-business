@@ -64,9 +64,47 @@ __Interpretation.__
     superpower.
   * The hegemony of the U.S. dollar and other American institutions still drives
     U.S. trade policy.
+* Since spending is greater than output, the U.S. is a more open economy. This
+  implies that investments have outpaced savings.
+* The U.S. is a net borrower.
 
 ### Question 1 Part C
 
 __U.S. net exports or (imports) and budget surplus or (deficit) as a percentage of nominal GDP.__
 
 ![U.S. net exports or (imports) and budget surplus or (deficit) as a percentage of nominal GDP.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-1-3.png?raw=true "Shares of output: net exports and budget surplus")
+
+__Correlations.__
+
+Since the beginning of the time series in 1947, net exports and budget surplus
+had a 73.38-percent correlation. As a share of nominal GDP, their correlation
+was 0.4964.
+
+Since 1970, net exports and budget surplus had a 68.95-percent correlation. As
+a share of nominal GDP, their correlation was 0.2123.
+
+### Question 1 Part D
+
+__Theoretical relationship.__
+
+Theoretically, an increase in government spending leads to an increase in the
+fiscal deficit. A fiscal deficit implies negative public savings.
+
+_Cateris paribus_, national savings decrease. This suggests an increase in the
+trade deficit.
+
+The theoretical relationship is a pair of "twin deficits" whereby the budget
+deficit and trade deficit comove, so their shares of nominal GDP should be
+strongly correlated.
+
+__Empirical relationship.__
+
+Empirically, however, the relationship between the budget and trade deficits is
+weaker than predicted by economic theory. Between 1970 and 2024, the correlation
+between their shares of nominal GDP was only about 0.21.
+
+Based on the chart above, there have been periods in recent memory when the
+budget and trade deficits have move inversely, which contradicts theory.
+
+We conclude that there must be confounding factors missing from our model which
+further explain the relationship.
