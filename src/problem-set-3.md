@@ -108,3 +108,41 @@ budget and trade deficits have move inversely, which contradicts theory.
 
 We conclude that there must be confounding factors missing from our model which
 further explain the relationship.
+
+__Counterexamples.__
+
+* During the 1990s, the U.S. trade deficit was expanding; however, the budget
+  deficit was shrinking.
+  * The Clinton administration made aggressive reforms to U.S. fiscal policy to
+    reduce the budget deficit, resulting in a budget surplus for the first time
+    in recent memory.
+  * The U.S. dollar was relatively strong during this period, so imports
+    outpaced exports, and the trade deficit expanded.
+  * The 1990s saw strong robust economic growth. Consumption, including
+    consumption of imports, increased, thus increasing the trade deficit.
+  * This period was marked by heightened globalization, the expansion of
+    international trade, and milestones like the North American Free Trade
+    Agreement. These contributed to the rising trade deficit, despite the fiscal
+    deficit falling.
+* During the 2008 financial crisis, the U.S. trade deficit was shrinking;
+  however, the budget deficit increased rapidly.
+  * The financial crisis caused the deterioration of the U.S. (and later,
+    global) economy, lower consumer confidence, and decreased consumption. As a
+    result, imports fell as a share of GDP, and the trade deficit decreased.
+  * Oil prices fell dramatically during the 2008 financial crisis. Since oil and
+    its derivatives are major U.S. imports, imports fell as a share of GDP.
+  * The Obama administration stabilized the economy by implementing major
+    bailout and stimulus programs such as the Troubled Assset Relief Program and
+    the Economic Stimulus Act of 2008. These vastly expanded the fiscal deficit.
+* During the 2020 coronavirus pandemic, the U.S. trade deficit expanded
+  slightly; meanwhile, the budget deficit exploded to a record, nearing 15
+  percent of the U.S. GDP.
+  * Imported medical supplies, equipment, and consumer products increased
+    imports relative to exports. At the same time, the pandemic disrupted global
+    supply chains and created frictions for both imports and exports. The net
+    effect was a slight increase in the trade deficit.
+  * The Trump administration expanded government spending to massive and
+    unprecedented levels. The Coronavirus Aid, Relief, and Economic Security Act
+    addressed the economic fallout of COVID-19 with stimulus, loans, and
+    spending. The fiscal deficit exploded to its highest level as a share of GDP
+    in recent memory.
