@@ -407,6 +407,20 @@ An increase in total factor productivity increases the marginal product of
 capital, and thus increases investment demand.
 
 The investment curve shifts upward, so the closed-economy equilibrium real
-interest rate rises.
+interest rate rises to $r_c'$
 
 The equilibrium level of investment rises in the closed economy.
+
+### Question 4 Part C
+
+> What is the effect of this shock on the trade balance? Show the trade balance in your plot.
+
+__The new level of investment and trade balance.__
+
+![The new level of investment and trade balance.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-4-2.png?raw=true "The new level of investment and trade balance")
+
+The level of investment moves from $I^*$ to $I^*'$. The purple line indicates
+the increase in the equilibrium level of investment.
+
+The trade balance (without loss of generality, this figure show a trade surplus)
+decreases. The green line indicates the reduced trade balance.
