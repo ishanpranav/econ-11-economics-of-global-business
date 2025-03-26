@@ -417,7 +417,7 @@ The equilibrium level of investment rises in the closed economy.
 
 __The new level of investment and trade balance.__
 
-![The new level of investment and trade balance.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-4-2.png?raw=true "The new level of investment and trade balance")
+![The new level of investment and trade balance.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-4-3.png?raw=true "The new level of investment and trade balance")
 
 The level of investment moves from $I^*$ to $I^*'$. The purple line indicates
 the increase in the equilibrium level of investment.
