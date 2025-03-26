@@ -380,3 +380,33 @@ destruction.
 
 ## Question 4: Small open economy and trade deficit
 
+> Suppose that Ecuador is a small open economy running a trade deficit.
+
+### Question 4 Part A
+
+> In a plot that has the interest rate on the vertical axis and savings ($S$)
+> and investment ($I(r)$). on the horizontal axis, show where the world interest
+> rate $r*$ should be relative to the ”closed-economy equilibrium interest
+> rate,” $r_c$.
+
+__The world interest rate $r^*$ *vs* the closed-economy equilibrium interst rate $r_{\text{c}}$__
+
+![The world interest rate and the closed-economy equilibrium interest rate.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-4-1.png?raw=true "The world interest rate and the closed-economy equilibrium interest rate")
+
+### Question 4 Part B
+
+> Show the effect on savings, investment and the real interest rate of an
+> increase in technological progress in Ecuador that is expected to increase
+> total factor productivity.
+
+__The new closed-economy equilibrium.__
+
+![The new closed-economy equilibrium.](https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-3-4-2.png?raw=true "The new closed-economy equilibrium")
+
+An increase in total factor productivity increases the marginal product of
+capital, and thus increases investment demand.
+
+The investment curve shifts upward, so the closed-economy equilibrium real
+interest rate rises.
+
+The equilibrium level of investment rises in the closed economy.
