@@ -150,5 +150,62 @@ Arguably, however, the U.S. economy currently faces pressures to trade and
 output. If these obstacles persist, the Federal Reserve may need to lower rates
 quickly in the impending recession.
 
-## Question 2
+## Question 2: Escape from quantitative easing pre-COVID-19
 
+> Consider the US economy a few years ago, in particular before the 2020
+> pandemic. An important issue during that period was the possible scenarios and
+> escape paths for the Federal Reserve from quantitative easing.
+
+### Question 2 Part A
+
+> Because the economy was heating up, banks begin to reduce the ratio of
+> reserves relative to deposits. Describe and illustrate how this will affect
+> the money supply and aggregate demand.
+
+When the reserve ratio decreases relative to deposits, the money multiplier
+increases.
+
+Thus, the money supply increases, so the aggregate demand curve shifts outwards.
+The increase in the money supply corresponds with a decrease in the interest
+rate.
+
+Inituitively, with more money in the economy, consumers are encouraged to spend
+more, and businesses are encouraged to invest more given the smaller cost of
+capital.
+
+### Question 2 Part B
+
+> Assuming no policy intervention, describe what happens to inflation and output
+> in the short and in the long run.
+
+In the short run, output rises and inflation increases. In the long run, output
+is fixed at its potential level, and prices rise to accomodate the inflationary
+pressures. Without intervention, the new long-run equilibrum price level is
+higher, indicating persistent inflation.
+
+### Question 2 Part C
+
+> Suppose that the Federal Reserve's objective is to stabilize the price level at
+> the level prior to the economy heating up. Should it intervene in response to
+> banks changing their lending decisions? How could the Fed intervene via open
+> market operations?
+
+If the Fed's objective is to stabilize the price level, it should intervene to
+increase the nominal interest rate.
+
+One technique the Fed can use is open market operations. By selling short-term
+government bonds (T-bills), the Fed can increase the yield on these securities,
+driving up the short-term nominal interest rate.
+
+### Question 2 Part D
+
+> In conjunction with open market operations, the Federal Reserve decides to
+> change the amount of interest it pays on reserves. How would it want to change
+> the interest rate it pays on reserves? How would this affect banks’ lending
+> decisions?
+
+The Federal Reserve can increase the interest on reserves, thus increasing the
+market interest rate. When banks have the opportunity to lend to the Fed at this
+higher rate, they will further discount risky opportunities, and the effective
+short-term interest rate will increase since the Fed offers a competitive,
+risk-free investment at a high rate.
