@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Problem Set 4</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+/* From extension searKing.preview-vscode */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.preview-vscode-error {
+	color: var(--vscode-editorError-foreground);
+}
+
+</style>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="problem-set-4" tabindex="-1" id="problem-set-4">Problem Set 4</h1>
+<p>Ishan Pranav</p>
+<p>May 8, 2025</p>
+<p>Professor Pricila Maziero</p>
+<p>ECON 11 Economics of Global Business</p>
+<h2 id="question-1%3A-the-taylor-rule" tabindex="-1" id="question-1-the-taylor-rule">Question 1: The Taylor Rule</h2>
+<p>We will use real gross domestic product
+(<a href="https://fred.stlouisfed.org/series/GDPC1">GDPC1</a>) and personal consumption
+expenditures, chain-type price index less food and energy
+(<a href="https://fred.stlouisfed.org/series/JCXFE">JCXFE</a>) from the U.S. Bureau of
+Economic Analysis. We will also use real potential gross domestic product
+(<a href="https://fred.stlouisfed.org/series/GDPPOT">GDPPOT</a>) from the U.S.
+Congressional Budget Office. Finally, we will use the federal funds effective
+rate (<a href="https://fred.stlouisfed.org/series/FEDFUNDS">FEDFUNDS</a>)
+from the Board of Governors of the Federal Reserve System. All are available
+from FRED, the Federal Reserve Bank of St. Louis.</p>
+<blockquote>
+<p>As a junior bond trader at Goldman Sachs, you have been asked by your boss to
+explain the Taylor Rule and how it can be a helpful guide to how the Federal
+Reserve sets monetary policy.</p>
+</blockquote>
+<h3 id="question-1-part-a" tabindex="-1" id="question-1-part-a">Question 1 Part A</h3>
+<p><strong>The Taylor rule and the federal funds (1971–2025).</strong></p>
+<p><img src="https://github.com/ishanpranav/econ-11-economics-of-global-business/blob/master/images/problem-set-4-1.png?raw=true" alt="The Taylor rule and the federal funds rate over time." title="The Taylor rule and the federal funds rate over time"></p>
+<p><strong>Model.</strong></p>
+<p>We use the Taylor rule to estimate the nominal interest rate over time,
+comparing it to the actual federal funds rate:</p>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>i</mi><mi>t</mi></msub><mo>=</mo><msup><mi>r</mi><mo lspace="0em" rspace="0em">∗</mo></msup><mo>+</mo><msub><mi>π</mi><mi>t</mi></msub><mo>+</mo><msub><mi>a</mi><mn>1</mn></msub><mo stretchy="false">(</mo><msub><mi>π</mi><mi>t</mi></msub><mo>−</mo><msup><mi>π</mi><mo lspace="0em" rspace="0em">∗</mo></msup><mo stretchy="false">)</mo><mo>+</mo><msub><mi>a</mi><mn>2</mn></msub><mo stretchy="false">(</mo><msub><mi>y</mi><mi>t</mi></msub><mo>−</mo><msubsup><mi>y</mi><mi>t</mi><mo lspace="0em" rspace="0em">∗</mo></msubsup><mo stretchy="false">)</mo><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">i_t=r^{\ast}+\pi_t+a_1(\pi_t-\pi^{\ast})+a_2(y_t-y_t^{\ast}).
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8095em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.822em;vertical-align:-0.0833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7387em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∗</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7387em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∗</span></span></span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7387em;"><span style="top:-2.453em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∗</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord">.</span></span></span></span></span></p>
+<ul>
+<li>Let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>i</mi><mi>t</mi></msub></mrow><annotation encoding="application/x-tex">i_t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8095em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">i</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> represent the short-term nominal inflation rate in period <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>, as
+estimated by the Taylor rule;</li>
+<li>let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>r</mi><mo lspace="0em" rspace="0em">∗</mo></msup><mo>∗</mo></mrow><annotation encoding="application/x-tex">r^{\ast}*</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6887em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∗</span></span></span></span></span></span></span></span></span><span class="mord">∗</span></span></span></span> be the long-term real interest rate (we assume
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>r</mi><mo lspace="0em" rspace="0em">∗</mo></msup><mo>=</mo><mn>2</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">r^{\ast}=2\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6887em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∗</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">2%</span></span></span></span>);</li>
+<li>let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>π</mi><mi>t</mi></msub></mrow><annotation encoding="application/x-tex">\pi_t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> be the inflation rate in period <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>;</li>
+<li>let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">a_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> be the sensitivity of the interest rate to inflation (we assume
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>0.5</mn></mrow><annotation encoding="application/x-tex">a_1=0.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.5</span></span></span></span>);</li>
+<li>let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>π</mi><mo lspace="0em" rspace="0em">∗</mo></msup></mrow><annotation encoding="application/x-tex">\pi^{\ast}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6887em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∗</span></span></span></span></span></span></span></span></span></span></span></span> be the target inflation rate (we assume <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>π</mi><mo lspace="0em" rspace="0em">∗</mo></msup><mo>=</mo><mn>2</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">\pi^{\ast}=2\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6887em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∗</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">2%</span></span></span></span>);</li>
+<li>let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">a_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> be the sensitivity of the interest rate to output (we assume
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>a</mi><mn>2</mn></msub><mo>=</mo><mn>0.5</mn></mrow><annotation encoding="application/x-tex">a_2=0.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.5</span></span></span></span>);</li>
+<li>let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>y</mi><mi>t</mi></msub></mrow><annotation encoding="application/x-tex">y_t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> be the real output (logarithmic) in period <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>;</li>
+<li>and let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi>y</mi><mi>t</mi><mo lspace="0em" rspace="0em">∗</mo></msubsup></mrow><annotation encoding="application/x-tex">y_t^{\ast}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9357em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-2.453em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∗</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span> be the potential real output (logarithmic).</li>
+</ul>
+<p><strong>Interpretation.</strong></p>
+<ul>
+<li>During the 1970s, the federal funds rate was higher than estimated by the
+Taylor rule.</li>
+<li>During the 2008 financial crisis, the Taylor rule suggested a marginally
+negative nominal interest rate. However, the Federal Reserve rejected this
+policy and asserted that interest rates should be floored at zero. Instead,
+the Federal Reserve opted for quantitative easing.</li>
+<li>During the 2020 pandemic, the Taylor rule suggested a deeply negative interest
+rate. Again, the Federal Reserve kept interest rates at zero, while the
+government pursued other approaches to stimulate output, such as the CARES
+Act.</li>
+<li>Between 2021 and 2024, the Taylor rule suggested a rapid and major increase in
+the interest rate. Although the Federal Reserve acted quickly, it fell short
+of the Taylor rule's extreme suggestions to combat inflation and react to high
+growth in output.</li>
+</ul>
+<h3 id="question-1-part-b" tabindex="-1" id="question-1-part-b">Question 1 Part B</h3>
+<blockquote>
+<p>Discuss what the impact was of the Federal Reserve's policy in for much of the
+1970s? Be sure to provide empirical evidence to support your argument. Why
+might the Fed have chosen this policy?</p>
+</blockquote>
+<p>During the 1970s, the American economy experienced major inflationary pressures,
+one of which was the Middle East oil crisis. Over this period, the federal funds
+rate was higher than the interest rate estimated by the Taylor rule.</p>
+<p>This suggests that, despite already-high nominal interest rates, the Federal
+Reserve was aggressive in its tightening approach. The Federal Reserve likely
+preferred lower long-term price levels over short-term relief.</p>
+<h3 id="question-1-part-c" tabindex="-1" id="question-1-part-c">Question 1 Part C</h3>
+<blockquote>
+<p>Fed deviations from a Taylor rule were smaller and less persistent after 1985.
+What was the impact on output and inflation? Be sure to provide empirical
+evidence to support your argument.</p>
+</blockquote>
+<p>After 1985, Fed deviations from the Taylor rule are smaller and less persistent.
+As a result, output and inflation were balanced. Inflation generally declined
+since the 1970s, while output generally increased since the 1970s. Since then,
+there has been no period as inflationary, even including the 2020 pandemic.</p>
+<h3 id="question-1-part-d" tabindex="-1" id="question-1-part-d">Question 1 Part D</h3>
+<blockquote>
+<p>In the mid-2000s, what was the stance of monetary policy relative to the
+Taylor Rule? Speculate on the potential consequences of this policy and how it
+relates to the run up in housing prices in the early 2000s and then the
+subsequent crash.</p>
+</blockquote>
+<p>In the early-to-mid-2000s, the federal funds rate was generally lower than
+suggested by the Taylor rule. This means that monetary policy was too lenient.
+It is likely that as the economy was growing, the Federal Reserve preferred the
+low interest rates but neglected the inflationary pressure. One consequence was
+that housing prices increased and formed a major speculative bubble, a product
+of cheap capital and accessible debt financing. This bubble was responsible for
+the 2008 financial crisis.</p>
+<h3 id="question-1-part-e" tabindex="-1" id="question-1-part-e">Question 1 Part E</h3>
+<blockquote>
+<p>After 2008, could the Federal Reserve implement what the Taylor rule
+prescribed? Why or why not? What can the Fed do to stimulate aggregate demand
+if the Taylor rule rate is below zero?</p>
+</blockquote>
+<p>After 2008, the Federal Reserve <em>could have</em> implemented the marginally negative
+interest rate suggested by the Taylor rule. However, if that rate were
+significantly negative, it would be completely unfeasible since investors would
+prefer to keep their savings in physical possession rather then lending them to
+banks at a negative rate of return.</p>
+<p>To stimulate aggregate demand when the Taylor rule rate is below zero, the Fed
+can engage in quantitative easing, whereby the Fed purchases long-term
+securities (such as long-term U.S. Treasury bonds and agency mortgage-backed
+securities) to increase the money supply and lower long-term interest rates.
+This encourages borrowing and investment and stimulates aggregate demand.</p>
+<h3 id="question-1-part-f" tabindex="-1" id="question-1-part-f">Question 1 Part F</h3>
+<blockquote>
+<p>How does the Federal Reserve's policy in 2020 compare to what the Taylor rule
+predicts? What about from 2021 to 2024? Discuss how these predictions relate
+to Fed’s policies in these years. Do you agree with the Fed's most recent
+decision (on March 2025) regarding interest rates based on the most recent
+available data?</p>
+</blockquote>
+<p>In 2020, the Taylor rule predicts a deeply negative interest rate. However, the
+Federal Reserve floored rates at zero and pursued quantitative easing instead.</p>
+<p>Between 2021 and 2024, the Taylor rule predicts a major increase in the interest
+rate over a short period of time. Although the Fed acted quickly, it did not
+undertake the drastic reaction suggested by the Taylor rule.</p>
+<p>Based on the most recent available data, the Taylor rule still predicts an
+interest rate higher than the current federal funds rate. This supports the
+Fed's decision to keep rates &quot;higher for longer&quot; in response to inflation and
+output growth.</p>
+<p>Arguably, however, the U.S. economy currently faces pressures to trade and
+output. If these obstacles persist, the Federal Reserve may need to lower rates
+quickly in the impending recession.</p>
+<h2 id="question-2%3A-escape-from-quantitative-easing-pre-covid-19" tabindex="-1" id="question-2-escape-from-quantitative-easing-pre-covid-19">Question 2: Escape from quantitative easing pre-COVID-19</h2>
+<blockquote>
+<p>Consider the US economy a few years ago, in particular before the 2020
+pandemic. An important issue during that period was the possible scenarios and
+escape paths for the Federal Reserve from quantitative easing.</p>
+</blockquote>
+<h3 id="question-2-part-a" tabindex="-1" id="question-2-part-a">Question 2 Part A</h3>
+<blockquote>
+<p>Because the economy was heating up, banks begin to reduce the ratio of
+reserves relative to deposits. Describe and illustrate how this will affect
+the money supply and aggregate demand.</p>
+</blockquote>
+<p>When the reserve ratio decreases relative to deposits, the money multiplier
+increases.</p>
+<p>Thus, the money supply increases, so the aggregate demand curve shifts outwards.
+The increase in the money supply corresponds with a decrease in the interest
+rate.</p>
+<p>Inituitively, with more money in the economy, consumers are encouraged to spend
+more, and businesses are encouraged to invest more given the smaller cost of
+capital.</p>
+<h3 id="question-2-part-b" tabindex="-1" id="question-2-part-b">Question 2 Part B</h3>
+<blockquote>
+<p>Assuming no policy intervention, describe what happens to inflation and output
+in the short and in the long run.</p>
+</blockquote>
+<p>In the short run, output rises and inflation increases. In the long run, output
+is fixed at its potential level, and prices rise to accomodate the inflationary
+pressures. Without intervention, the new long-run equilibrum price level is
+higher, indicating persistent inflation.</p>
+<h3 id="question-2-part-c" tabindex="-1" id="question-2-part-c">Question 2 Part C</h3>
+<blockquote>
+<p>Suppose that the Federal Reserve's objective is to stabilize the price level at
+the level prior to the economy heating up. Should it intervene in response to
+banks changing their lending decisions? How could the Fed intervene via open
+market operations?</p>
+</blockquote>
+<p>If the Fed's objective is to stabilize the price level, it should intervene to
+increase the nominal interest rate.</p>
+<p>One technique the Fed can use is open market operations. By selling short-term
+government bonds (T-bills), the Fed can increase the yield on these securities,
+driving up the short-term nominal interest rate.</p>
+<h3 id="question-2-part-d" tabindex="-1" id="question-2-part-d">Question 2 Part D</h3>
+<blockquote>
+<p>In conjunction with open market operations, the Federal Reserve decides to
+change the amount of interest it pays on reserves. How would it want to change
+the interest rate it pays on reserves? How would this affect banks’ lending
+decisions?</p>
+</blockquote>
+<p>The Federal Reserve can increase the interest on reserves, thus increasing the
+market interest rate. When banks have the opportunity to lend to the Fed at this
+higher rate, they will further discount risky opportunities, and the effective
+short-term interest rate will increase since the Fed offers a competitive,
+risk-free investment at a high rate.</p>
+
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+            
+        </body>
+        </html>
